@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.primary-button{
+    background: #FF5959;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 16px 20px;
+    border: 0;
+}
+
+header{
+    background: url('../images/donation-15.png'), #5c5b5b;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.inner-header{
+    padding: 170px 250px;
+    text-align: center;
+}
+
+.header-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.title-brief{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 20px 0 30px 0;
+}
+
+.donate-section, 
+.update{
+    text-align: center;
+    margin: 130px 320px;
+}
+
+.donate-title,
+.update-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    text-align: center;
+}
+
+.donate-detail,
+.update-detail{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.donate-cards{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+.card{
+    background: #FAFAFA;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-amount{
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+    padding: 44px 25px;
+}
+
+.card-pink{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-amount-pink{
+    color: #FF5959;
+    padding: 44px 25px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.other-amount{
+    text-align: center;
+    border: 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    margin-top: 60px;
+}
+
+/* input{
+    border: 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+} */
+
+hr{
+    border: 1px solid #DADADA;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.donate-plan,
+.help{
+    margin: 130px 150px;
+}
+
+.plan-cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.plan-card{
+    padding: 54px 22px;
+}
+
+.plan-one{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+
+.plan-two{
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+
+.plan-three{
+    background: #FFF4D6;
+    border-radius: 5px;
+}
+
+.card-title{
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    margin: 31px 0 16px 0;
+}
+.card-detail{
+    color: #707070;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: #707070;
+}
+
+.help, 
+.help-two{
+    display: flex;
+}
+
+.help-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.help-left-part{
+    padding: 80px 0;
+}
+
+.help-right-part{
+    padding: 0 50px;
+}
+
+.detail-one{
+    margin: 20px 0 20px 0;
+}
+
+.help-left-part-two{
+    padding: 0 80px 0 50px;
+    margin-left: 100px;
+}
+
+.help-right-part-two{
+    padding: 50px 80px 50px 0;
+}
+
+.input-field{
+    background: #FFF4D6;
+    padding: 76px 150px;
+
+}
+
+input[type="email"]{
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    color: #AA9F9F;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #D9D9D9;
+    padding: 16px 20px;
+}
+
+.btn-text-color{
+    color: #FFEEEE;
+}
+
+footer{
+    text-align: center;
+    padding: 63px 0;
+    background: #0B0D17;
+    color: #FFF;
+
+}
+
+footer .humble{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 24px 0;
+    color: #FF5959;;
+}
+
+.humble p{
+    font-weight: 400;
+    font-size: 36px;    
+    margin: 24px 0;
+}
