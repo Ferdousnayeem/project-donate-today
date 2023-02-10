@@ -5,6 +5,7 @@
 
 .primary-button{
     background: #FF5959;
+    color: #FFF;
     border-radius: 5px;
     font-weight: 600;
     font-size: 20px;
@@ -211,9 +212,6 @@ input[type="email"]{
     padding: 16px 20px;
 }
 
-.btn-text-color{
-    color: #FFEEEE;
-}
 
 footer{
     text-align: center;
